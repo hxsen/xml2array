@@ -1,4 +1,4 @@
-### 一、升级xml数据转换成json插件
+### 一、升级xml数据转换json插件
 
 本插件基于 [tamlyn/xml2json](https://github.com/tamlyn/xml2json) 的二次开发。
 使其能更好的兼容laravel的框架。
