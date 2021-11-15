@@ -1,0 +1,31 @@
+{
+    "name": "hxsen/xml2array",
+    "description": "xml数据转换成array插件",
+    "type": "library",
+    "authors": [
+        {
+            "name": "houxin",
+            "email": "hx@hxsen.comm"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hxsen\\Xml2Json": "src/"
+        },
+        "files": [
+            "src/helper.php",
+            "xml2json/xml2json.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hxsen\\Xml2Json\\Tests": "src/tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": "Hxsen\\Xml2Array\\Xml2ArrayServiceProvider"
+        }
+    }
+}
