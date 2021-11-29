@@ -9,7 +9,7 @@
 ```php
     $xml = '<b>hello world</b>';
 
-    $result = app('xml2array')->xmlToArray($xml);
+    $result = app('xmlTransform')->xmlToArray($xml);
 ```
 
 ### 二、提供了一个正则方式解析xml的方法
@@ -17,5 +17,5 @@
 ```php
     $xml = '<b>hello world</b>';
 
-    $result = app('xml2array')->xmlToArrayPreg($xml);
+    $result = app('xmlTransform')->xmlToArrayPreg($xml);
 ```
