@@ -1,6 +1,7 @@
 {
     "name": "hxsen/xml2array",
     "description": "xml数据转换成array插件",
+    "license": "MIT",
     "type": "library",
     "authors": [
         {
