@@ -11,7 +11,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Hxsen\\Xml2Array": "src/"
+            "Hxsen\\Xml2Array\\": "src/"
         },
         "files": [
             "xml2json/xml2json.php"
@@ -19,7 +19,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Hxsen\\Xml2Array\\Tests": "src/tests"
+            "Hxsen\\Xml2Array\\Tests\\": "src/tests"
         }
     },
     "extra": {
