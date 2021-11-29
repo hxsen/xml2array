@@ -23,6 +23,6 @@ class Xml2ArrayServiceProvider extends ServiceProvider
     public function register()
     {
         // 注册服务
-        $this->app->singleton('xml2array', Transform::class);
+        $this->app->singleton('xmlTransform', XmlTransform::class);
     }
 }

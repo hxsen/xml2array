@@ -2,7 +2,7 @@
 
 namespace Hxsen\Xml2Array;
 
-class Transform
+class XmlTransform
 {
     /**
      * 标准转换
@@ -26,6 +26,6 @@ class Transform
      */
     public function xmlToArrayPreg($xml)
     {
-        return xmlToArrayPreg($xml);
+        return Xml2Array::xmlToArrayPreg($xml);
     }
 }

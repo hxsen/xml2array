@@ -11,16 +11,15 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Hxsen\\Xml2Json": "src/"
+            "Hxsen\\Xml2Array": "src/"
         },
         "files": [
-            "src/helper.php",
             "xml2json/xml2json.php"
         ]
     },
     "autoload-dev": {
         "psr-4": {
-            "Hxsen\\Xml2Json\\Tests": "src/tests"
+            "Hxsen\\Xml2Array\\Tests": "src/tests"
         }
     },
     "extra": {
